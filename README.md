@@ -3,12 +3,14 @@
 
 # caretForecast
 
+<img src="man/figures/logo.png" align="center" height="139" alt="caretForecast logo" />
+
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/Akai01/caretForecast/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Akai01/caretForecast/actions/workflows/R-CMD-check.yaml)
-[![pkgdown](https://github.com/Akai01/caretForecast/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/Akai01/caretForecast/actions/workflows/pkgdown.yaml)
+[![R-CMD-check](https://github.com/taf-society/caretForecast/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/taf-society/caretForecast/actions/workflows/R-CMD-check.yaml)
+[![pkgdown](https://github.com/taf-society/caretForecast/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/taf-society/caretForecast/actions/workflows/pkgdown.yaml)
 [![Codecov test
-coverage](https://codecov.io/gh/Akai01/caretForecast/graph/badge.svg)](https://app.codecov.io/gh/Akai01/caretForecast)
+coverage](https://codecov.io/gh/taf-society/caretForecast/graph/badge.svg)](https://app.codecov.io/gh/taf-society/caretForecast)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/caretForecast)](https://CRAN.R-project.org/package=caretForecast)
 [![CRAN
@@ -33,6 +35,14 @@ learning algorithms for time series data forecasting.
 - Support for external regressors (promotions, holidays, etc.)
 - Compatible with hierarchical/grouped time series via the hts package
 
+## About TAFS
+
+**TAFS (Time Series Analysis and Forecasting Society)** is a non-profit
+association (“Verein”) in Vienna, Austria. It connects academics,
+experts, practitioners, and students focused on time-series,
+forecasting, and decision science. Contributions remain fully open
+source. Learn more at [taf-society.org](https://taf-society.org/).
+
 ## Installation
 
 The CRAN version with:
@@ -45,7 +55,7 @@ The development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Akai01/caretForecast")
+devtools::install_github("taf-society/caretForecast")
 ```
 
 ## Example
